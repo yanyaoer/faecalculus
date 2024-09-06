@@ -4,6 +4,11 @@ understand large legacy codebase by llm
 
 ## setup
 ```bash
+# local llm
+brew install ollama
+ollama pull codegemma
+
+# python env
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -14,7 +19,7 @@ pip install -r requirements.txt
 ```python3
 ./faecalculus.py -h
 
-usage: Codebase [-h] [-p REPO_PATH] [-l LANGUAGE] [-i INDEX_NAME] [-m MODE]
+usage: [-h] [-p REPO_PATH] [-l LANGUAGE] [-i INDEX_NAME] [-m MODE]
                    [--debug DEBUG] [-q QUESTION]
 
 options:
