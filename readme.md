@@ -1,5 +1,6 @@
-Rag based code tools
+Faecalculus
 ---
+understand large legacy codebase by llm
 
 ## setup
 ```bash
@@ -13,10 +14,8 @@ pip install -r requirements.txt
 ```python3
 ./faecalculus.py -h
 
-usage: Codebase-QA [-h] [-p REPO_PATH] [-l LANGUAGE] [-i INDEX_NAME] [-m MODE]
+usage: Codebase [-h] [-p REPO_PATH] [-l LANGUAGE] [-i INDEX_NAME] [-m MODE]
                    [--debug DEBUG] [-q QUESTION]
-
-How does the program work
 
 options:
   -h, --help            show this help message and exit
@@ -31,8 +30,8 @@ options:
 # build_index
 ./faecalculus.py -m index
 
-# ask question
-./faecalculus.py -q "how to seek audio"
+# ask_question
+./faecalculus.py -q "how to seek audio" -p "local_path_to_rodio"
 ```
 
 ```markdown

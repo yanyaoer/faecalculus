@@ -16,8 +16,8 @@ from langchain_text_splitters import Language, RecursiveCharacterTextSplitter
 # <https://python.langchain.com/v0.1/docs/use_cases/code_understanding/>
 
 parser = argparse.ArgumentParser(
-    prog="Codebase-QA",
-    description="How does the program work",
+    prog="faecalculus.py",
+    description="How does the repository work",
 )
 parser.add_argument("-p", "--repo_path", default="/Users/yanyao/data/fork/rodio")
 parser.add_argument("-l", "--language", default="rust")
