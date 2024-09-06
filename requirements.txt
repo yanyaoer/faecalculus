@@ -1,0 +1,7 @@
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain
+tiktoken
+tree-sitter==0.21.3 # lower version for java <https://stackoverflow.com/questions/78492223/langchain-language-parser-does-not-work-with-java>
+tree-sitter-languages
